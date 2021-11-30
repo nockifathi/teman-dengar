@@ -13,6 +13,6 @@ app.get("/", function(request, response){
 app.get("/about", function(req, res){
   res.send("untuk didengar, sahabat baik untuk dibaca")
 })
-app.listen(3000, function(){
+app.listen(process.env.PORT || 3000, function(){
   console.log("Server started on port 3000");
 });
