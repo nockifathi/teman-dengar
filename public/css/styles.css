@@ -545,7 +545,7 @@ input[type=range]::-moz-focus-inner, input[type=range]::-moz-focus-outer {
     display: inline-block
   }
 
-  .colleagueimage {
+  .gambarsyar {
     position: absolute;
     opacity: .2;
     top: 190px;
@@ -555,13 +555,13 @@ input[type=range]::-moz-focus-inner, input[type=range]::-moz-focus-outer {
     bottom: 0
   }
 
-  .colleagueimage img {
+  .gambarsyar img {
     width: auto
   }
 }
 
 @media screen and (max-height:800px) {
-  .colleagueimage {
+  .gambarsyar {
     opacity: .2
   }
 }
